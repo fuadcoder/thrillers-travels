@@ -8,20 +8,21 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 export default function Home() {
   return (
-    <main className="lg:my-10 sm:w-[900px] md:mx-auto">
-      <div className="grid xl:grid-cols-[400px_minmax(900px,_1fr)_100px] sm:grid-cols-[400px_minmax(900px,_1fr)_100px] sm:max-w-3xl xs:grid-cols-1 border">
+    <main className=" lg:my-10 sm:w-[900px] md:mx-auto">
+      <div className="grid xl:grid-cols-[400px_minmax(900px,_1fr)_100px] sm:grid-cols-[400px_minmax(900px,_1fr)_100px] sm:max-w-2xl xs:grid-cols-1 border xl:m-5">
       <div className="bg-blue-50">
-        <Link href="/">
+      <Link href="/">
         <img
           src="https://www.thrillerstravels.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftt_blue_logo_with_text.3a2bb0cc.png&w=256&q=75"
           className="h-8 m-6"
           alt="logo"
         />
         </Link>
+
         <Navbar />
         <div className="ml-6 leading-7 pb-6">
           <p className="text-lg font-medium text-slate-600 leading-7">
-            Best flight deals with <br />
+            Best train deals with <br />
             <span className="text-xl text-blue-800 font-bold">
               Thrillers Travels
             </span>
@@ -35,7 +36,7 @@ export default function Home() {
             Search results
             <br />{" "}
             <span className="text-sm font-normal text-slate-500">
-              We found 15 results
+              We found 12 results
             </span>
           </p>
           <div className="flex items-center mr-4 space-x-2">
